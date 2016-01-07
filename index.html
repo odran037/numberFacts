@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Number Facts</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="http://dummyimage.com/57x57/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://dummyimage.com/60x60/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://dummyimage.com/72x72/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://dummyimage.com/76x76/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://dummyimage.com/114x114/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://dummyimage.com/120x120/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://dummyimage.com/144x144/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://dummyimage.com/152x152/0044B9/fff.png&text=NF">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://dummyimage.com/180x180/0044B9/fff.png&text=NF">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://dummyimage.com/16x16/0044B9/fff.png&text=NF">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://dummyimage.com/32x32/0044B9/fff.png&text=NF">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://dummyimage.com/96x96/0044B9/fff.png&text=NF">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://dummyimage.com/192x192/0044B9/fff.png&text=NF">
+    <link rel="icon" type="image/x-icon" href="http://dummyimage.com/16x16/0044B9/fff.png&text=NF">
+    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body ng-app="numFacts">
+
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+
+              <h3 class="masthead-brand">
+                <span class="fa fa-cogs"></span>&nbsp;Number Facts
+              </h3>
+
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="#Math">Math</a></li>
+                  <li><a href="#trivia">Trivia</a></li>
+                  <li><a href="#date">Date</a></li>
+                  <li><a href="http://odran037.io"><span class="fa fa-question"></span></a></li>
+                </ul>
+              </nav>
+
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <div ng-view="ng-view"></div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>A simple <a href="numbersapi.com">numbersapi.com</a> clone</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.10/angular.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js'></script>
+    <script src="js/index.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/service.js"></script>
+
+  </body>
+</html>
+
+
+
+
+
+

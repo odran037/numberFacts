@@ -1,0 +1,12 @@
+<h1 class="cover-heading">Math</h1>
+<p class="lead">
+  <form role="search">
+    <input
+      type="number"
+      ng-model="vm.facts"
+      class="btn-default"
+      ng-change="vm.getMathFacts()"
+      placeholder="Enter a number" />
+  </form>
+</p>
+<p class="lead">{{vm.factData}}</p>
